@@ -6,23 +6,6 @@ import java.util.Scanner;
 
 public class ATM {
 
-	/*
-	 * Projekat je jako dobro odradjen. Nemam nikakvih zamjerki sto se tice
-	 * funkcionalnosti aplikacije. Super odradjeno!
-	 * 
-	 * Imam nekih zavjeta sto se tice dizajna aplikacije. Recimo klasa User izgleda
-	 * tacno onako kako bi i trebala izgledati. Ima samo ono sto joj je potrebno,
-	 * bez nepotrebnih podataka i metoda.
-	 * 
-	 * Za Account klasu. Ona ne bi trebati extendat User-a. Obzirom da su ti
-	 * potrebni podaci User-a unutar Account klase, mozes to postici na drugi nacin.
-	 * Mozes koristiti kompoziciju, tako da Account ima u sebi kao data field User
-	 * tip. To je ono sto smo pricali prosle sedmice. Ali to se da popravit. Ima
-	 * knjiga objavljena na forumu, i to je ujedno zadaca za ovu sedmicu. Pa da se
-	 * malo refaktorise aplikacija, i krene rad na drugoj.
-	 * 
-	 */
-
 	public static void main(String[] args) {
 		Scanner unos = new Scanner(System.in);
 
